@@ -1,3 +1,5 @@
+/system reset-configuration
+
 /interface bridge add name=bridge40
 /interface bridge add name=bridge41
 
