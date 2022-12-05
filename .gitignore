@@ -1,0 +1,8 @@
+*.o
+download/obj/
+download/download
+download/*.zip
+download/*.mp4
+download/*.jpg
+download/*.png
+download/*.txt
