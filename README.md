@@ -4,7 +4,7 @@
 
 <br>
 
-This application can be used my compiling the code in the [download](/download/) folder using the provided Makefile.
+This application can be used by compiling the code in the [download](/download/) folder using the provided Makefile.
 
 Some **execution examples**:
 
