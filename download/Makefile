@@ -19,22 +19,6 @@ $(ODIR)/%.o: $(SDIR)/%.c | $(ODIR)
 $(ODIR):
 	mkdir $(ODIR)
 
-test: test_novpn
-
-test_all: test_novpn test_vpn
-
-test_vpn:
-	./download ftp://netlab1.fe.up.pt/pub.txt 				 
-	./download ftp://rcom:rcom@netlab1.fe.up.pt/pipe.txt       
-	./download ftp://rcom:rcom@netlab1.fe.up.pt/files/pic1.jpg
-	./download ftp://rcom:rcom@netlab1.fe.up.pt/files/pic2.png
-	./download ftp://rcom:rcom@netlab1.fe.up.pt/files/crab.mp4
-
-test_novpn:
-	./download ftp://speedtest.tele2.net/1MB.zip
-	./download ftp://ftp.up.pt/pub/debian/README
-	./download ftp://ftp.up.pt/pub/apache/README.html
-
 clean: 
 	rm -f download
 	rm -rf obj
